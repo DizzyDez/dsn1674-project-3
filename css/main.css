@@ -28,12 +28,10 @@ h1 {
   position: relative;
 }
 .nav {
-  position: absolute;
-  top: 6.6%;
-
   width: 100%;
-  padding: 2rem 0.5em 2rem 0.5em;
+  padding: 0rem 0.5em 0rem 0.5em;
   text-align: center;
+  margin: 0;
 }
 .nav li {
   display: inline-block;
@@ -91,6 +89,14 @@ h1 {
   width: 50%;
   float: left;
 }
+.menu {
+  background-color: #ed934f;
+}
+
+.float-menu {
+
+}
+
 footer {
   background-color: #000;
 }
