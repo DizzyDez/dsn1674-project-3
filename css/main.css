@@ -28,6 +28,7 @@ h1 {
 }
 div {
   padding: .5rem;
+  overflow: hidden;
 }
 .logo {
   width: 100%;
@@ -66,12 +67,33 @@ div {
 .banner {
   width: 100%;
 }
+figure {
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  text-shadow: 3px 4px 4px #000;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  padding: 2rem;
+}
+
 .gallery {
   background-color: #c2371e;
+  overflow: hidden;
 
 }
 .grid {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .unit {
@@ -92,6 +114,8 @@ div {
 
 .history {
   background-color: #1e4a26;
+  overflow: hidden;
+  padding-bottom: 2em;
 }
 .moe {
   width: 50%;
@@ -101,7 +125,6 @@ div {
 }
 .menu {
   background-color: #ed934f;
-  padding: 1em 2em 0 1em;
   height: 900px;
 }
 
@@ -110,6 +133,7 @@ div {
   float: left;
   padding: 1em 2em 1em 0;
   clear: left;
+  overflow: hidden;
 }
 .btn-menu {
   background-color: #000;
@@ -126,7 +150,7 @@ div {
 .contact {
   background-color: #c2371e;
 }
-p.contact-address {
+.contact-address {
   font-family: 'Slabo 27px', serif;
   font-size: 1.2em;
   line-height: .7;
@@ -139,16 +163,18 @@ footer {
   background-color: #000;
   padding: .5rem;
   padding-top: 2rem;
+  margin: 0;
 }
 .footer-address {
   color: #fff;
   font-family: 'Slabo 27px', serif;
   font-size: 1.2em;
-  line-height: 1;
+  line-height: .7;
   margin-top: 0;
 }
 .footer-contact {
-
+  position: relative;
+  left: 60%;
   background-color: #000;
   color: #fff;
   display: block;
@@ -156,7 +182,6 @@ footer {
   font-size: 1.2em;
   line-height: 1;
   margin: 0;
-
 }
 
 .fb,
@@ -166,7 +191,7 @@ footer {
   float: right;
   height: 12%;
   width: 12%;
-  margin: 2%;
+  margin: 1%;
   position: relative;
   border-radius: 500px;
   padding: 2px;
