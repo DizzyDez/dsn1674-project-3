@@ -8,6 +8,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #ed934f;
 }
 
 img {
@@ -24,10 +25,10 @@ h1 {
   color: #fff;
   font-size: 150%;
   margin: 0;
-  padding-top: 2rem;
+  padding: 1rem 2rem 1rem 1rem;
+
 }
 div {
-  padding: .5rem;
   overflow: hidden;
 }
 .logo {
@@ -55,13 +56,16 @@ div {
   color: #fff;
   text-decoration: none;
 }
+.nav:hover {
+
+}
 
 .nav li:first-child {
-  border-top-left-radius: 0.5em;
+  border-top-left-radius: 0.7em;
 }
 
 .nav li:last-child {
-  border-top-right-radius: 0.5em;
+  border-top-right-radius: 0.7em;
 }
 
 .banner {
@@ -109,7 +113,20 @@ figcaption {
 .body-copy {
   font-family: 'Slabo 27px', serif;
   color: #fff;
-  padding-bottom: 10%;
+
+  padding-left: 1rem;
+}
+.body-copy li {
+  margin: 1rem;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+ul.body-copy {
+  padding-bottom: 50px;
 }
 
 .history {
@@ -120,38 +137,40 @@ figcaption {
 .moe {
   width: 50%;
   float: left;
-  padding-top: 1rem;
+  padding-left: 1em;
   margin-right: 10px;
 }
 .menu {
   background-color: #ed934f;
-  height: 900px;
+
+  margin: 0;
 }
 
 .float-menu {
   width: 50%;
   float: left;
-  padding: 1em 2em 1em 0;
+  margin: 0 1em;
   clear: left;
   overflow: hidden;
 }
 .btn-menu {
   background-color: #000;
-  border-radius: 0.4em;
   display: inline-block;
-  padding:0.5em 0.75em;
+  padding: 1em 1.75em;
   text-decoration: none;
   color:#fff;
-
-  border-radius: 10px;
+  width: auto;
+  border-radius: 20px;
   background-image: linear-gradient(to bottom, #999, #000);
   position: relative;
   left: 50%;
+  transform: translateX(-50%);
   bottom: -20px;
 }
 
 .contact {
   background-color: #c2371e;
+  padding top: 2em;
 }
 .contact-address {
   font-family: 'Slabo 27px', serif;
@@ -161,6 +180,7 @@ figcaption {
 p {
   font-family: 'Slabo 27px', serif;
   font-size: 1.2em;
+  padding-left: 1em;
 }
 footer {
   background-color: #000;
@@ -172,12 +192,12 @@ footer {
   color: #fff;
   font-family: 'Slabo 27px', serif;
   font-size: 1.2em;
-  line-height: .7;
+  line-height: .9;
   margin-top: 0;
 }
 .footer-contact {
   position: relative;
-  left: 60%;
+  left: 50%;
   background-color: #000;
   color: #fff;
   display: block;
